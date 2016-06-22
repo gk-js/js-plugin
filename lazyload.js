@@ -2,8 +2,6 @@
     var className, srcProp, lazyElements;
     if(config && config.className){
         className = config.className;
-    }else{
-        className = ".lazyLoad";
     }
     if(config && config.srcProp){
         srcProp = config.srcProp;
